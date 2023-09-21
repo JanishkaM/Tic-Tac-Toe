@@ -94,7 +94,7 @@ button:hover {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    width: 65%;
+    width: 60%;
     aspect-ratio: 1/1;
 }
 
@@ -121,4 +121,16 @@ button:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 30px;
+}
+@media screen and (max-width:600px){
+    .game-board {
+        width: 90%;
+    }
+    
+    .box {
+        font-size: 40px;
+    }
+    .controls {
+        top: 90%;
+    }
 }

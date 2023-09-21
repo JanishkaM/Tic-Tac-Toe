@@ -1,44 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <script src="app.js" defer></script>
     <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <!-- icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
     <title>Tic Tac Toe</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="start popup" id="start">
-        <h1 id="welcome-text">Welcome to the game</h1>
-        <h1>Select your character</h1>
-        <div class="character" id="character">
-            <!-- select characters gose here -->
-        </div><br>
+      <h1 id="welcome-text">Welcome to the game</h1>
+      <h1>Select your character</h1>
+      <div class="character" id="character">
+        <!-- select characters gose here -->
+      </div>
+      <br />
     </div>
     <div class="game-board" id="game-board">
-        <div class="box" id="box" data-box="1"></div>
-        <div class="box" id="box" data-box="2"></div>
-        <div class="box" id="box" data-box="3"></div>
-        <div class="box" id="box" data-box="4"></div>
-        <div class="box" id="box" data-box="5"></div>
-        <div class="box" id="box" data-box="6"></div>
-        <div class="box" id="box" data-box="7"></div>
-        <div class="box" id="box" data-box="8"></div>
-        <div class="box" id="box" data-box="9"></div>
+      <div class="box" id="box" data-box="1"></div>
+      <div class="box" id="box" data-box="2"></div>
+      <div class="box" id="box" data-box="3"></div>
+      <div class="box" id="box" data-box="4"></div>
+      <div class="box" id="box" data-box="5"></div>
+      <div class="box" id="box" data-box="6"></div>
+      <div class="box" id="box" data-box="7"></div>
+      <div class="box" id="box" data-box="8"></div>
+      <div class="box" id="box" data-box="9"></div>
     </div>
     <div class="controls">
-        <button id="restart"><i class="bi bi-arrow-counterclockwise"></i></button>
-        <button><a href=""><i class="bi bi-envelope-paper-heart"></i></a></button>
+      <button id="restart"><i class="bi bi-arrow-counterclockwise"></i></button>
+      <button>
+        <a href="#"><i class="bi bi-envelope-paper-heart"></i></a>
+      </button>
     </div>
-</body>
-
+  </body>
 </html>
